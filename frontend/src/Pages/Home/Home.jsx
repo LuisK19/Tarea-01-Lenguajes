@@ -58,7 +58,6 @@ function Home() {
 
                 <p>¿List@ para jugar?</p>
                 <button onClick={handlePlay}>Jugar</button>
-
                 {userName && (
                     <div className={styles.userInfo}>
                         <p>Jugando como: <strong>{userName}</strong></p>

@@ -2,91 +2,91 @@
   {
     "id": 1,
     "question": "¿Cuál es la capital de Francia?",
-    "options": ["París", "Londres", "Madrid", "Berlín"],
+    "options": ["París", "Londres", "Madrid"],
     "correctAnswer": "París"
   },
   {
     "id": 2,
     "question": "¿2 + 2?",
-    "options": ["3", "4", "5", "6"],
+    "options": ["3", "4", "5"],
     "correctAnswer": "4"
   },
   {
     "id": 3,
     "question": "¿Qué lenguaje se usa principalmente en React?",
-    "options": ["Python", "Java", "JavaScript", "C++"],
+    "options": ["Python", "Java", "JavaScript"],
     "correctAnswer": "JavaScript"
   },
   {
     "id": 4,
     "question": "¿Cuál es el océano más grande del mundo?",
-    "options": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+    "options": ["Atlántico", "Índico", "Pacífico"],
     "correctAnswer": "Pacífico"
   },
   {
     "id": 5,
     "question": "¿Quién pintó la Mona Lisa?",
-    "options": ["Picasso", "Van Gogh", "Da Vinci", "Miguel Ángel"],
+    "options": ["Picasso", "Van Gogh", "Da Vinci"],
     "correctAnswer": "Da Vinci"
   },
   {
     "id": 6,
     "question": "¿En qué año llegó el hombre a la luna?",
-    "options": ["1969", "1972", "1958", "1965"],
+    "options": ["1969", "1972", "1958"],
     "correctAnswer": "1969"
   },
   {
     "id": 7,
     "question": "¿Cuál es el metal más ligero?",
-    "options": ["Aluminio", "Litio", "Oro", "Plata"],
+    "options": ["Aluminio", "Litio", "Oro"],
     "correctAnswer": "Litio"
   },
   {
     "id": 8,
     "question": "¿Qué planeta es conocido como el planeta rojo?",
-    "options": ["Marte", "Júpiter", "Saturno", "Venus"],
+    "options": ["Marte", "Júpiter", "Saturno"],
     "correctAnswer": "Marte"
   },
   {
     "id": 9,
     "question": "¿Cuántos lados tiene un hexágono?",
-    "options": ["5", "6", "7", "8"],
+    "options": ["5", "6", "7"],
     "correctAnswer": "6"
   },
   {
     "id": 10,
     "question": "¿Qué instrumento tocaba Louis Armstrong?",
-    "options": ["Piano", "Trompeta", "Saxofón", "Clarinete"],
+    "options": ["Piano", "Trompeta", "Saxofón"],
     "correctAnswer": "Trompeta"
   },
   {
     "id": 11,
     "question": "¿Quién escribió 'Cien años de soledad'?",
-    "options": ["Mario Vargas Llosa", "Gabriel García Márquez", "Julio Cortázar", "Carlos Fuentes"],
+    "options": ["Mario Vargas Llosa", "Gabriel García Márquez", "Julio Cortázar"],
     "correctAnswer": "Gabriel García Márquez"
   },
   {
     "id": 12,
     "question": "¿Cuál es la montaña más alta del mundo?",
-    "options": ["K2", "Everest", "Kangchenjunga", "Lhotse"],
+    "options": ["K2", "Everest", "Kangchenjunga"],
     "correctAnswer": "Everest"
   },
   {
     "id": 13,
     "question": "¿En qué continente está Egipto?",
-    "options": ["Asia", "África", "Europa", "Oceanía"],
+    "options": ["Asia", "África", "Europa"],
     "correctAnswer": "África"
   },
   {
     "id": 14,
     "question": "¿Cuál es el río más largo del mundo?",
-    "options": ["Amazonas", "Nilo", "Misisipi", "Yangtsé"],
+    "options": ["Amazonas", "Nilo", "Misisipi"],
     "correctAnswer": "Amazonas"
   },
   {
     "id": 15,
     "question": "¿Qué año comenzó la Segunda Guerra Mundial?",
-    "options": ["1939", "1941", "1937", "1940"],
+    "options": ["1939", "1941", "1937"],
     "correctAnswer": "1939"
   },
   {
