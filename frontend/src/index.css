@@ -1,68 +1,95 @@
 :root {
+  /* Paleta de Colores - Naranjas (del más oscuro al más claro) */
+  --pumpkin-spice: #ff6d00;
+  --harvest-orange: #ff7900;
+  --princeton-orange: #ff8500;
+  --deep-saffron: #ff9100;
+  --amber-glow: #ff9e00;
+
+  /* Paleta de Colores - Morados (del más oscuro al más claro) */
+  --dark-amethyst: #240046;
+  --indigo-ink: #3c096c;
+  --indigo-velvet: #5a189a;
+  --royal-violet: #7b2cbf;
+  --lavender-purple: #9d4edd;
+
+  /* Colores Básicos */
+  --white: #fefefe;
+  --black: #000000;
+  --gray: #666666;
+  --gray-light: #aaaaaa;
+  --gray-dark: #121212;
+
+  /* Colores de Fondo */
+  --bg-white: var(--white);
+  --bg-black: var(--black);
+  --bg-gray: var(--gray);
+  --bg-primary: var(--royal-violet); /* Color primario morado */
+  --bg-secondary: var(--amber-glow); /* Color secundario naranja */
+
+  /* Colores de Texto */
+  --text-black: var(--black);
+  --text-white: var(--white);
+  --text-gray: var(--gray);
+  --text-primary: var(--royal-violet);
+  --text-secondary: var(--amber-glow);
+
+  /* Colores de Estados */
+  --success: #28a745;
+  --error: #dc3545;
+  --warning: #ffc107;
+
+  /* Hover y variantes */
+  --primary-hover: var(--indigo-velvet);
+  --secondary-hover: var(--deep-saffron);
+  --primary-light: var(--lavender-purple);
+  --secondary-light: var(--princeton-orange);
+
+  /* Fuentes y otros */
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+/* Modo Oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-white: var(--black);
+    --bg-black: var(--white);
+    --text-black: var(--white);
+    --text-white: var(--black);
+    --text-gray: var(--gray-light);
+    --bg-primary: var(--royal-violet);
+    --primary-hover: var(--lavender-purple);
+  }
 }
-a:hover {
-  color: #535bf2;
+
+/* Modo Oscuro manual (clase en body) */
+:root.dark-theme,
+body.dark-theme {
+  --bg-white: var(--black);
+  --bg-black: var(--white);
+  --text-black: var(--white);
+  --text-white: var(--black);
+  --text-gray: var(--gray-light);
+  --bg-primary: var(--royal-violet);
+  --primary-hover: var(--lavender-purple);
+}
+
+/* Reset global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: var(--bg-white);
+  color: var(--text-black);
+  transition: background-color 0.3s, color 0.3s;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}

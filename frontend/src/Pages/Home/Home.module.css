@@ -1,0 +1,114 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--bg-white);
+    color: var(--text-black);
+}
+
+.homeContainer h1 {
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.homeContainer p {
+    color: var(--text-gray);
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.homeContainer button {
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.homeContainer button:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.homeContainer button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.logoContainer img {
+    width: 100px;
+    height: 100px;
+    animation: bounce 2s infinite;
+    filter: brightness(0) invert(1);
+}
+
+
+.logoContainer h1 {
+    margin: 0;
+}
+
+
+.themeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.themeToggle button {
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    padding: 8px 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.themeToggle button:hover {
+    background-color: var(--primary-hover);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 8px 8px;
+    font-size: 1rem;
+    background-color: var(--gray-dark);
+    color: var(--text-white);
+    z-index: 500;
+}
+
+.footer p {
+    margin: 1rem;
+}
+
+body.dark-theme .footer {
+    background-color: var(--bg-secondary);
+    color: var(--text-black);
+}
