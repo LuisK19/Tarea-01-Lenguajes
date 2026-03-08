@@ -63,13 +63,18 @@ function Home() {
                     <div className={styles.userInfo}>
                         <p>Jugando como: <strong>{userName}</strong></p>
                         <button onClick={handleChangeUser} className={styles.changeUserBtn}>
-                            <User size={16} /> Cambiar Usuario
+                            <User size={24} /> Cambiar Usuario
                         </button>
                     </div>
                 )}
+                <div className={styles.historialButtonContainer}>
+                    <button onClick={() => navigate('/historial')} className={styles.historialButton}>
+                        Ver Historial
+                    </button>
+                </div>
 
                 <div className={styles.footer}>
-                    <p>&copy; 2026 Luis Trejos. Todos los derechos reservados.</p>
+                    <p>&copy; 2026 Ltrejos. Todos los derechos reservados.</p>
                 </div>
             </div>
 
@@ -97,6 +102,7 @@ function Home() {
                     {dark ? <Moon /> : <Sun />}
                 </button>
             </div>
+
         </>
     )
 }

@@ -24,11 +24,11 @@
     background-color: var(--bg-primary);
     color: var(--text-white);
     border: none;
-    padding: 12px 24px;
+    padding: 16px 24px;
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: var(--corners);
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -48,8 +48,6 @@
 .logoContainer {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
 }
 
 .logoContainer img {
@@ -89,6 +87,22 @@
 
 .themeToggle button:hover {
     background-color: var(--primary-hover);
+}
+
+
+.historialButtonContainer button {
+    margin-top: 1rem;
+    background-color: var(--bg-secondary);
+    color: var(--text-white);
+    border: none;
+    padding: 16px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: var(--corners);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s;
 }
 
 .footer {

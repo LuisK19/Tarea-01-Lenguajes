@@ -16,6 +16,7 @@ body {
   /* Colores Básicos */
   --white: #ffffff;
   --white-bg: #fefefe;
+  --white-off: #FDFDFD;
   --black: #000000;
   --gray: #666666;
   --gray-light: #aaaaaa;
@@ -34,6 +35,7 @@ body {
   --text-gray: var(--gray);
   --text-primary: var(--royal-violet);
   --text-secondary: var(--amber-glow);
+  --logo: var(--indigo-ink);
 
   /* Colores de Estados */
   --success: #28a745;
@@ -55,11 +57,13 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --th: var(--indigo-ink);
 
   /* Estilos base */
   background-color: var(--bg-white);
   color: var(--text-black);
   transition: background-color 0.3s, color 0.3s;
+  --corners: 12px;
 
   /* Filtro del logo */
   --logo-filter: brightness(0);
@@ -83,12 +87,14 @@ body.dark-theme {
   --bg-white: var(--black);
   --bg-black: var(--white);
   --text-black: var(--white);
-  --text-white: var(--black);
+  --text-white: var(--white-off);
   --text-gray: var(--gray-light);
   --bg-primary: var(--royal-violet);
   --primary-hover: var(--lavender-purple);
   --text-primary: var(--lavender-purple);
   --logo-filter: invert(1);
+  --th: var(--royal-violet);
+  --logo: var(--lavender-purple);
 }
 
 

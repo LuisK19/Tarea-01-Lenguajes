@@ -107,7 +107,7 @@ app.get('/api/results', async (req, res) => {
 });
 
 //Endpoint para obtener resultados ordenados por usuario
-app.get('/api/results/user', async (req, res) => {
+app.post('/api/results/user', async (req, res) => {
     try {
         const { userName } = req.body;
         if (!userName) {

@@ -1,0 +1,89 @@
+.historialContainer {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--bg-white);
+    color: var(--text-black);
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;    
+}
+
+.logoContainer h1 {
+    color: var(--logo);
+    font-size: 2rem;
+    margin: 0;
+}
+
+tr {
+    background-color: var(--bg-white);
+    color: var(--text-black);
+}
+
+th {
+    background-color: var(--th);
+    color: var(--text-white);
+    padding: 10px 16px;
+    font-size: 1.25rem;
+}
+
+td {
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1rem;
+}
+
+
+.closeButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: var(--bg-secondary);
+    color: var(--text-white);
+    border: none;
+    padding: 5px 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s;
+}
+
+
+.closeButton:hover {
+    background-color: var(--deep-saffron);
+}
+
+
+.themeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.themeToggle button {
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    padding: 8px 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

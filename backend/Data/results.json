@@ -1,74 +1,170 @@
 [
   {
-    "userName": "Juan Pérez",
+    "userName": "Carlos Méndez",
     "score": 8,
     "win": true,
     "date": "2026-03-08T08:21:13.895Z"
   },
   {
-    "userName": "María García",
+    "userName": "Laura Jiménez",
     "score": 4,
     "win": false,
     "date": "2026-03-08T08:21:24.256Z"
   },
   {
-    "userName": "Juan Pérez",
+    "userName": "Carlos Méndez",
     "score": 10,
     "win": true,
     "date": "2026-03-08T08:37:46.512Z"
   },
   {
-    "userName": "ana",
+    "userName": "Ana Castillo",
     "score": 1,
     "win": false,
     "date": "2026-03-08T11:27:35.745Z"
   },
   {
-    "userName": "ana",
+    "userName": "Ana Castillo",
     "score": 3,
     "win": false,
     "date": "2026-03-08T11:29:55.038Z"
   },
   {
-    "userName": "ana",
+    "userName": "Ana Castillo",
     "score": 4,
     "win": false,
     "date": "2026-03-08T11:30:15.108Z"
   },
   {
-    "userName": "...",
+    "userName": "Roberto Solís",
     "score": 0,
     "win": false,
     "date": "2026-03-08T11:50:50.038Z"
   },
   {
-    "userName": "...",
+    "userName": "Roberto Solís",
     "score": 4,
     "win": false,
     "date": "2026-03-08T12:04:02.700Z"
   },
   {
-    "userName": "...",
+    "userName": "Roberto Solís",
     "score": 1,
     "win": false,
     "date": "2026-03-08T12:06:05.663Z"
   },
   {
-    "userName": "...",
+    "userName": "Roberto Solís",
     "score": 0,
     "win": false,
     "date": "2026-03-08T12:06:41.359Z"
   },
   {
-    "userName": "xfgss",
+    "userName": "Fernando Rojas",
     "score": 0,
     "win": false,
     "date": "2026-03-08T12:07:50.415Z"
   },
   {
-    "userName": "ana",
+    "userName": "Ana Castillo",
     "score": 5,
     "win": false,
     "date": "2026-03-08T12:36:03.052Z"
+  },
+  {
+    "userName": "Ana Castillo",
+    "score": 6,
+    "win": true,
+    "date": "2026-03-08T20:37:42.852Z"
+  },
+  {
+    "userName": "Luis Herrera",
+    "score": 2,
+    "win": false,
+    "date": "2026-03-08T20:38:55.662Z"
+  },
+  {
+    "userName": "Laura Jiménez",
+    "score": 4,
+    "win": false,
+    "date": "2026-03-08T08:21:24.256Z"
+  },
+  {
+    "userName": "Carlos Méndez",
+    "score": 10,
+    "win": true,
+    "date": "2026-03-08T08:37:46.512Z"
+  },
+  {
+    "userName": "Ana Castillo",
+    "score": 1,
+    "win": false,
+    "date": "2026-03-08T11:27:35.745Z"
+  },
+  {
+    "userName": "Ana Castillo",
+    "score": 3,
+    "win": false,
+    "date": "2026-03-08T11:29:55.038Z"
+  },
+  {
+    "userName": "Ana Castillo",
+    "score": 4,
+    "win": false,
+    "date": "2026-03-08T11:30:15.108Z"
+  },
+  {
+    "userName": "Roberto Solís",
+    "score": 0,
+    "win": false,
+    "date": "2026-03-08T11:50:50.038Z"
+  },
+  {
+    "userName": "Roberto Solís",
+    "score": 4,
+    "win": false,
+    "date": "2026-03-08T12:04:02.700Z"
+  },
+  {
+    "userName": "Roberto Solís",
+    "score": 1,
+    "win": false,
+    "date": "2026-03-08T12:06:05.663Z"
+  },
+  {
+    "userName": "Roberto Solís",
+    "score": 0,
+    "win": false,
+    "date": "2026-03-08T12:06:41.359Z"
+  },
+  {
+    "userName": "Fernando Rojas",
+    "score": 0,
+    "win": false,
+    "date": "2026-03-08T12:07:50.415Z"
+  },
+  {
+    "userName": "Ana Castillo",
+    "score": 5,
+    "win": false,
+    "date": "2026-03-08T12:36:03.052Z"
+  },
+  {
+    "userName": "Ana Castillo",
+    "score": 6,
+    "win": true,
+    "date": "2026-03-08T20:37:42.852Z"
+  },
+  {
+    "userName": "Luis Herrera",
+    "score": 2,
+    "win": false,
+    "date": "2026-03-08T20:38:55.662Z"
+  },
+  {
+    "userName": "Luis",
+    "score": 0,
+    "win": false,
+    "date": "2026-03-08T23:24:32.095Z"
   }
 ]
