@@ -1,0 +1,20 @@
+[
+  {
+    "userName": "Juan Pérez",
+    "score": 8,
+    "win": true,
+    "date": "2026-03-08T08:21:13.895Z"
+  },
+  {
+    "userName": "María García",
+    "score": 4,
+    "win": false,
+    "date": "2026-03-08T08:21:24.256Z"
+  },
+  {
+    "userName": "Juan Pérez",
+    "score": 10,
+    "win": true,
+    "date": "2026-03-08T08:37:46.512Z"
+  }
+]
