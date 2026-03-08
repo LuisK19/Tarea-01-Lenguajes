@@ -24,9 +24,7 @@ app.get('/api/questions/random', async (req, res) => {
       options: q.options,
       correctAnswer: q.correctAnswer
     }));
-    console.log('Selected Questions:', formattedQuestions); // Debug: Verificar las preguntas seleccionadas
     res.json(formattedQuestions);
-    console.log('Sent Questions:', formattedQuestions); // Debug: Verificar las preguntas enviadas
   } catch (error) {
     console.error('Error get questions random:', error);
     res.status(500).json({ error: 'Error interno del servidor' });
@@ -37,13 +35,10 @@ app.get('/api/questions/random', async (req, res) => {
 app.post('/api/questions/check', async (req, res) => {
   try {
     const { questionId, selectedOption } = req.body;
-    console.log('Received questionId:', questionId, 'selectedOption:', selectedOption);
-
     const data = await fs.readFile(path.join(__dirname, 'Data', 'questions.json'), 'utf-8');
     const questions = JSON.parse(data);
 
     const question = questions.find(q => q.id === questionId);
-    console.log('Found question:', question);
     if (!question) {
       return res.status(404).json({ error: 'Pregunta no encontrada' });
     }

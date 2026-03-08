@@ -99,7 +99,7 @@ function Game() {
     };
 
     const finishGame = async () => {
-        const win = score >= 7; // Gana si acierta 7 o más de 10
+        const win = score >= 6; // Gana si acierta 6 o más de 10
 
         try {
             await axios.post('http://localhost:5000/api/results', {
