@@ -1,151 +1,151 @@
 [
   {
     "id": 1,
-    "text": "¿Cuál es la capital de Francia?",
+    "question": "¿Cuál es la capital de Francia?",
     "options": ["París", "Londres", "Madrid", "Berlín"],
     "correctAnswer": "París"
   },
   {
     "id": 2,
-    "text": "¿2 + 2?",
+    "question": "¿2 + 2?",
     "options": ["3", "4", "5", "6"],
     "correctAnswer": "4"
   },
   {
     "id": 3,
-    "text": "¿Qué lenguaje se usa principalmente en React?",
+    "question": "¿Qué lenguaje se usa principalmente en React?",
     "options": ["Python", "Java", "JavaScript", "C++"],
     "correctAnswer": "JavaScript"
   },
   {
     "id": 4,
-    "text": "¿Cuál es el océano más grande del mundo?",
+    "question": "¿Cuál es el océano más grande del mundo?",
     "options": ["Atlántico", "Índico", "Pacífico", "Ártico"],
     "correctAnswer": "Pacífico"
   },
   {
     "id": 5,
-    "text": "¿Quién pintó la Mona Lisa?",
+    "question": "¿Quién pintó la Mona Lisa?",
     "options": ["Picasso", "Van Gogh", "Da Vinci", "Miguel Ángel"],
     "correctAnswer": "Da Vinci"
   },
   {
     "id": 6,
-    "text": "¿En qué año llegó el hombre a la luna?",
+    "question": "¿En qué año llegó el hombre a la luna?",
     "options": ["1969", "1972", "1958", "1965"],
     "correctAnswer": "1969"
   },
   {
     "id": 7,
-    "text": "¿Cuál es el metal más ligero?",
+    "question": "¿Cuál es el metal más ligero?",
     "options": ["Aluminio", "Litio", "Oro", "Plata"],
     "correctAnswer": "Litio"
   },
   {
     "id": 8,
-    "text": "¿Qué planeta es conocido como el planeta rojo?",
+    "question": "¿Qué planeta es conocido como el planeta rojo?",
     "options": ["Marte", "Júpiter", "Saturno", "Venus"],
     "correctAnswer": "Marte"
   },
   {
     "id": 9,
-    "text": "¿Cuántos lados tiene un hexágono?",
+    "question": "¿Cuántos lados tiene un hexágono?",
     "options": ["5", "6", "7", "8"],
     "correctAnswer": "6"
   },
   {
     "id": 10,
-    "text": "¿Qué instrumento tocaba Louis Armstrong?",
+    "question": "¿Qué instrumento tocaba Louis Armstrong?",
     "options": ["Piano", "Trompeta", "Saxofón", "Clarinete"],
     "correctAnswer": "Trompeta"
   },
   {
     "id": 11,
-    "text": "¿Quién escribió 'Cien años de soledad'?",
+    "question": "¿Quién escribió 'Cien años de soledad'?",
     "options": ["Mario Vargas Llosa", "Gabriel García Márquez", "Julio Cortázar", "Carlos Fuentes"],
     "correctAnswer": "Gabriel García Márquez"
   },
   {
     "id": 12,
-    "text": "¿Cuál es la montaña más alta del mundo?",
+    "question": "¿Cuál es la montaña más alta del mundo?",
     "options": ["K2", "Everest", "Kangchenjunga", "Lhotse"],
     "correctAnswer": "Everest"
   },
   {
     "id": 13,
-    "text": "¿En qué continente está Egipto?",
+    "question": "¿En qué continente está Egipto?",
     "options": ["Asia", "África", "Europa", "Oceanía"],
     "correctAnswer": "África"
   },
   {
     "id": 14,
-    "text": "¿Cuál es el río más largo del mundo?",
+    "question": "¿Cuál es el río más largo del mundo?",
     "options": ["Amazonas", "Nilo", "Misisipi", "Yangtsé"],
     "correctAnswer": "Amazonas"
   },
   {
     "id": 15,
-    "text": "¿Qué año comenzó la Segunda Guerra Mundial?",
+    "question": "¿Qué año comenzó la Segunda Guerra Mundial?",
     "options": ["1939", "1941", "1937", "1940"],
     "correctAnswer": "1939"
   },
   {
     "id": 16,
-    "text": "¿Cuál es el animal terrestre más rápido?",
+    "question": "¿Cuál es el animal terrestre más rápido?",
     "options": ["León", "Guepardo", "Antílope", "Caballo"],
     "correctAnswer": "Guepardo"
   },
   {
     "id": 17,
-    "text": "¿Quién desarrolló la teoría de la relatividad?",
+    "question": "¿Quién desarrolló la teoría de la relatividad?",
     "options": ["Newton", "Einstein", "Galileo", "Hawking"],
     "correctAnswer": "Einstein"
   },
   {
     "id": 18,
-    "text": "¿Cuál es el país más poblado del mundo?",
+    "question": "¿Cuál es el país más poblado del mundo?",
     "options": ["India", "China", "Estados Unidos", "Indonesia"],
     "correctAnswer": "China"
   },
   {
     "id": 19,
-    "text": "¿En qué año se descubrió América?",
+    "question": "¿En qué año se descubrió América?",
     "options": ["1492", "1500", "1480", "1510"],
     "correctAnswer": "1492"
   },
   {
     "id": 20,
-    "text": "¿Qué vitamina produce el cuerpo al tomar sol?",
+    "question": "¿Qué vitamina produce el cuerpo al tomar sol?",
     "options": ["Vitamina A", "Vitamina D", "Vitamina C", "Vitamina E"],
     "correctAnswer": "Vitamina D"
   },
   {
     "id": 21,
-    "text": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "question": "¿Cuál es el órgano más grande del cuerpo humano?",
     "options": ["Corazón", "Piel", "Hígado", "Pulmones"],
     "correctAnswer": "Piel"
   },
   {
     "id": 22,
-    "text": "¿Quién fue el primer presidente de Estados Unidos?",
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
     "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
     "correctAnswer": "George Washington"
   },
   {
     "id": 23,
-    "text": "¿Cuál es el símbolo químico del agua?",
+    "question": "¿Cuál es el símbolo químico del agua?",
     "options": ["H2O", "CO2", "O2", "NaCl"],
     "correctAnswer": "H2O"
   },
   {
     "id": 24,
-    "text": "¿En qué deporte se utiliza un taco?",
+    "question": "¿En qué deporte se utiliza un taco?",
     "options": ["Fútbol", "Billar", "Tenis", "Golf"],
     "correctAnswer": "Billar"
   },
   {
     "id": 25,
-    "text": "¿Qué banda británica cantó 'Bohemian Rhapsody'?",
+    "question": "¿Qué banda británica cantó 'Bohemian Rhapsody'?",
     "options": ["The Beatles", "Queen", "Rolling Stones", "Pink Floyd"],
     "correctAnswer": "Queen"
   }

@@ -16,15 +16,17 @@ app.get('/api/questions/random', async (req, res) => {
   try {
     const data = await fs.readFile(path.join(__dirname, 'Data', 'questions.json'), 'utf-8');
     const questions = JSON.parse(data);
-
     const sortedQuestions = questions.sort(() => 0.5 - Math.random());
     const selectedQuestions = sortedQuestions.slice(0, 10);
     const formattedQuestions = selectedQuestions.map(q => ({
       id: q.id,
       question: q.question,
-      options: q.options
+      options: q.options,
+      correctAnswer: q.correctAnswer
     }));
+    console.log('Selected Questions:', formattedQuestions); // Debug: Verificar las preguntas seleccionadas
     res.json(formattedQuestions);
+    console.log('Sent Questions:', formattedQuestions); // Debug: Verificar las preguntas enviadas
   } catch (error) {
     console.error('Error get questions random:', error);
     res.status(500).json({ error: 'Error interno del servidor' });
@@ -35,17 +37,19 @@ app.get('/api/questions/random', async (req, res) => {
 app.post('/api/questions/check', async (req, res) => {
   try {
     const { questionId, selectedOption } = req.body;
+    console.log('Received questionId:', questionId, 'selectedOption:', selectedOption);
 
     const data = await fs.readFile(path.join(__dirname, 'Data', 'questions.json'), 'utf-8');
     const questions = JSON.parse(data);
 
     const question = questions.find(q => q.id === questionId);
+    console.log('Found question:', question);
     if (!question) {
       return res.status(404).json({ error: 'Pregunta no encontrada' });
     }
 
     const isCorrect = question.correctAnswer === selectedOption;
-    res.json({ isCorrect });
+    res.json({ isCorrect, correctAnswer: question.correctAnswer });
   } catch (error) {
     console.error('Error checking answer:', error);
     res.status(500).json({ error: 'Error interno del servidor' });

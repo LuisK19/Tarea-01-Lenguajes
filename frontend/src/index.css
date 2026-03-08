@@ -1,4 +1,4 @@
-:root {
+body {
   /* Paleta de Colores - Naranjas (del más oscuro al más claro) */
   --pumpkin-spice: #ff6d00;
   --harvest-orange: #ff7900;
@@ -14,14 +14,15 @@
   --lavender-purple: #9d4edd;
 
   /* Colores Básicos */
-  --white: #fefefe;
+  --white: #ffffff;
+  --white-bg: #fefefe;
   --black: #000000;
   --gray: #666666;
   --gray-light: #aaaaaa;
   --gray-dark: #121212;
 
   /* Colores de Fondo */
-  --bg-white: var(--white);
+  --bg-white: var(--white-bg);
   --bg-black: var(--black);
   --bg-gray: var(--gray);
   --bg-primary: var(--royal-violet); /* Color primario morado */
@@ -37,6 +38,7 @@
   /* Colores de Estados */
   --success: #28a745;
   --error: #dc3545;
+  --error-hover: #b02a37;
   --warning: #ffc107;
 
   /* Hover y variantes */
@@ -53,13 +55,21 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Estilos base */
+  background-color: var(--bg-white);
+  color: var(--text-black);
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Filtro del logo */
+  --logo-filter: brightness(0);
 }
 
 /* Modo Oscuro */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-white: var(--black);
-    --bg-black: var(--white);
+    --bg-black: var(--white-bg);
     --text-black: var(--white);
     --text-white: var(--black);
     --text-gray: var(--gray-light);
@@ -69,7 +79,6 @@
 }
 
 /* Modo Oscuro manual (clase en body) */
-:root.dark-theme,
 body.dark-theme {
   --bg-white: var(--black);
   --bg-black: var(--white);
@@ -78,18 +87,15 @@ body.dark-theme {
   --text-gray: var(--gray-light);
   --bg-primary: var(--royal-violet);
   --primary-hover: var(--lavender-purple);
+  --text-primary: var(--lavender-purple);
+  --logo-filter: invert(1);
 }
+
 
 /* Reset global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: var(--bg-white);
-  color: var(--text-black);
-  transition: background-color 0.3s, color 0.3s;
 }
 

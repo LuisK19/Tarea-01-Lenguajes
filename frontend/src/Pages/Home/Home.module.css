@@ -56,7 +56,7 @@
     width: 100px;
     height: 100px;
     animation: bounce 2s infinite;
-    filter: brightness(0) invert(1);
+    filter: var(--logo-filter);
 }
 
 
@@ -99,16 +99,110 @@
     text-align: center;
     padding: 8px 8px;
     font-size: 1rem;
-    background-color: var(--gray-dark);
-    color: var(--text-white);
+    background-color: var(--bg-primary);
+    color: var(--white);
     z-index: 500;
 }
 
 .footer p {
     margin: 1rem;
+    color: var(--text-white);
 }
 
-body.dark-theme .footer {
-    background-color: var(--bg-secondary);
-    color: var(--text-black);
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 }
+
+.userInfo p {
+    color: var(--text-gray);
+    margin: 0;
+}
+
+.changeUserBtn {
+    background-color: var(--bg-secondary);
+    color: var(--text-white);
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s;
+}
+
+.changeUserBtn:hover {
+    background-color: var(--secondary-hover);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modalContent {
+    background-color: var(--bg-white);
+    color: var(--text-black);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 300px;
+}
+
+.modalContent h2 {
+    margin-bottom: 15px;
+    color: var(--text-primary);
+}
+
+.modalContent input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.modalButtons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.modalButtons button {
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modalButtons button:hover {
+    background-color: var(--primary-hover);
+}
+
+.modalButtons button:last-child {
+    background-color: var(--gray);
+}
+
+.modalButtons button:last-child:hover {
+    background-color: var(--gray-dark);
+}
+
+

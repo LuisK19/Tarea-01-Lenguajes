@@ -1,0 +1,265 @@
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: var(--bg-white);
+    color: var(--text-black);
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.header p {
+    color: var(--text-gray);
+    margin: 0;
+}
+
+.questionBox {
+    background-color: var(--bg-white);
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.questionBox h3 {
+    color: var(--text-black);
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.optionsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.optionButton {
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.optionButton:hover:not(:disabled) {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.optionButton:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+
+
+.resultModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.resultModalContent {
+    background-color: var(--bg-white);
+    color: var(--text-black);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+.resultModalContent.correct {
+    border: 3px solid var(--success);
+}
+
+.resultModalContent.incorrect {
+    border: 3px solid var(--error);
+}
+
+.resultModalContent h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.resultModalContent p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.resultModalContent button {
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.resultModalContent button:hover {
+    background-color: var(--primary-hover);
+}
+
+.exitButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--error);
+    color: var(--text-white);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.exitButton:hover {
+    background-color: var(--error-hover);
+}
+
+.themeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.themeToggle button {
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    padding: 8px 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.themeToggle button:hover {
+    background-color: var(--primary-hover);
+}
+
+.resultModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.resultModalContent {
+    background-color: var(--bg-white);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.correct {
+    color: var(--success) !important;
+    animation: pulse 0.5s ease-in-out;
+}
+
+.incorrect {
+    color: var(--error) !important;
+}
+
+.resultModalContent h3 {
+    margin: 0 0 10px 0;
+}
+
+.resultModalContent p {
+    margin: 0 0 20px 0;
+    color: var(--text-gray);
+}
+
+.resultModalContent button {
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.resultModalContent button:hover {
+    background-color: var(--primary-hover);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .optionsContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .questionBox {
+        padding: 15px;
+    }
+
+    .optionButton {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+}
