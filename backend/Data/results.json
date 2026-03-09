@@ -178,5 +178,23 @@
     "score": 9,
     "win": true,
     "date": "2026-03-09T00:21:07.325Z"
+  },
+  {
+    "userName": "Juan",
+    "score": 0,
+    "win": false,
+    "date": "2026-03-09T05:18:46.929Z"
+  },
+  {
+    "userName": "Juan",
+    "score": 9,
+    "win": true,
+    "date": "2026-03-09T05:21:04.529Z"
+  },
+  {
+    "userName": "Juan",
+    "score": 1,
+    "win": false,
+    "date": "2026-03-09T05:21:56.675Z"
   }
 ]
