@@ -92,61 +92,61 @@
   {
     "id": 16,
     "question": "¿Cuál es el animal terrestre más rápido?",
-    "options": ["León", "Guepardo", "Antílope", "Caballo"],
+    "options": ["León", "Guepardo", "Caballo"],
     "correctAnswer": "Guepardo"
   },
   {
     "id": 17,
     "question": "¿Quién desarrolló la teoría de la relatividad?",
-    "options": ["Newton", "Einstein", "Galileo", "Hawking"],
+    "options": ["Newton", "Einstein", "Hawking"],
     "correctAnswer": "Einstein"
   },
   {
     "id": 18,
     "question": "¿Cuál es el país más poblado del mundo?",
-    "options": ["India", "China", "Estados Unidos", "Indonesia"],
+    "options": ["India", "China", "Estados Unidos"],
     "correctAnswer": "China"
   },
   {
     "id": 19,
     "question": "¿En qué año se descubrió América?",
-    "options": ["1492", "1500", "1480", "1510"],
+    "options": ["1492", "1500", "1480"],
     "correctAnswer": "1492"
   },
   {
     "id": 20,
     "question": "¿Qué vitamina produce el cuerpo al tomar sol?",
-    "options": ["Vitamina A", "Vitamina D", "Vitamina C", "Vitamina E"],
+    "options": ["Vitamina A", "Vitamina D", "Vitamina C"],
     "correctAnswer": "Vitamina D"
   },
   {
     "id": 21,
     "question": "¿Cuál es el órgano más grande del cuerpo humano?",
-    "options": ["Corazón", "Piel", "Hígado", "Pulmones"],
+    "options": ["Corazón", "Piel", "Hígado"],
     "correctAnswer": "Piel"
   },
   {
     "id": 22,
     "question": "¿Quién fue el primer presidente de Estados Unidos?",
-    "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+    "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson"],
     "correctAnswer": "George Washington"
   },
   {
     "id": 23,
     "question": "¿Cuál es el símbolo químico del agua?",
-    "options": ["H2O", "CO2", "O2", "NaCl"],
+    "options": ["H2O", "CO2", "O2"],
     "correctAnswer": "H2O"
   },
   {
     "id": 24,
     "question": "¿En qué deporte se utiliza un taco?",
-    "options": ["Fútbol", "Billar", "Tenis", "Golf"],
+    "options": ["Fútbol", "Billar", "Tenis"],
     "correctAnswer": "Billar"
   },
   {
     "id": 25,
     "question": "¿Qué banda británica cantó 'Bohemian Rhapsody'?",
-    "options": ["The Beatles", "Queen", "Rolling Stones", "Pink Floyd"],
+    "options": ["The Beatles", "Queen", "Rolling Stones"],
     "correctAnswer": "Queen"
   }
 ]
