@@ -114,7 +114,7 @@ Devuelve todos los resultados guardados.
 ## Información Académica
 Nombre del curso: Lenguajes de Programacion
 
-Numero de semestre y ano lectivo: Semestre I, 2026
+Numero de semestre y año lectivo: Semestre I, 2026
 
 Nombre del Estudiante: Luis Carlos Trejos Rivera
 
