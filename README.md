@@ -113,12 +113,22 @@ Devuelve todos los resultados guardados.
 
 ## Información Académica
 Nombre del curso: Lenguajes de Programacion
+
 Numero de semestre y ano lectivo: Semestre I, 2026
+
 Nombre del Estudiante: Luis Carlos Trejos Rivera
+
+
 Numero de carnet del estudiante: 2022437816
+
 Numero de tarea: TAREA 1: Aplicación Web
+
 Fecha de entrega: 8 de marzo de 2026
+
 Estatus de la entrega: Excelente
+
+Github: https://github.com/LuisK19/Tarea-01-Lenguajes
+Video: https://youtu.be/mH0LlS1ZVNw
 
 ## Contribución
 
